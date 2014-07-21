@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04CE5DE197D543B008EEEB5 /* LFProtocolStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F04CE5DD197D543B008EEEB5 /* LFProtocolStore.m */; };
+		F04DB4DA197C6509009E207C /* LFRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DB4D9197C6509009E207C /* LFRequestQueue.m */; };
+		F04DB4DD197C652C009E207C /* LFNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DB4DC197C652C009E207C /* LFNode.m */; };
+		F0810FD41977281700A5785C /* LFURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F0810FD31977281700A5785C /* LFURLProtocol.m */; };
+		F094C4B51976ADBA005E59DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4B41976ADBA005E59DD /* Foundation.framework */; };
+		F094C4B71976ADBA005E59DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4B61976ADBA005E59DD /* CoreGraphics.framework */; };
+		F094C4B91976ADBA005E59DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4B81976ADBA005E59DD /* UIKit.framework */; };
+		F094C4BF1976ADBA005E59DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F094C4BD1976ADBA005E59DD /* InfoPlist.strings */; };
+		F094C4C11976ADBA005E59DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4C01976ADBA005E59DD /* main.m */; };
+		F094C4C51976ADBA005E59DD /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4C41976ADBA005E59DD /* LFAppDelegate.m */; };
+		F094C4C81976ADBA005E59DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F094C4C61976ADBA005E59DD /* Main.storyboard */; };
+		F094C4CB1976ADBA005E59DD /* LFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4CA1976ADBA005E59DD /* LFViewController.m */; };
+		F094C4CD1976ADBA005E59DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F094C4CC1976ADBA005E59DD /* Images.xcassets */; };
+		F094C4D41976ADBB005E59DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4D31976ADBB005E59DD /* XCTest.framework */; };
+		F094C4D51976ADBB005E59DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4B41976ADBA005E59DD /* Foundation.framework */; };
+		F094C4D61976ADBB005E59DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F094C4B81976ADBA005E59DD /* UIKit.framework */; };
+		F094C4DE1976ADBB005E59DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F094C4DC1976ADBB005E59DD /* InfoPlist.strings */; };
+		F094C4E01976ADBB005E59DD /* LFProxy3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4DF1976ADBB005E59DD /* LFProxy3Tests.m */; };
+		F094C4EB1976AE01005E59DD /* LFLocalProxyServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4EA1976AE01005E59DD /* LFLocalProxyServer.m */; };
+		F094C4EE1976B0C0005E59DD /* LFConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F094C4ED1976B0C0005E59DD /* LFConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F094C4D71976ADBB005E59DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F094C4A91976ADB9005E59DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F094C4B01976ADBA005E59DD;
+			remoteInfo = LFProxy3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04CE5DC197D543B008EEEB5 /* LFProtocolStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFProtocolStore.h; sourceTree = "<group>"; };
+		F04CE5DD197D543B008EEEB5 /* LFProtocolStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFProtocolStore.m; sourceTree = "<group>"; };
+		F04DB4D8197C6509009E207C /* LFRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRequestQueue.h; sourceTree = "<group>"; };
+		F04DB4D9197C6509009E207C /* LFRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRequestQueue.m; sourceTree = "<group>"; };
+		F04DB4DB197C652C009E207C /* LFNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNode.h; sourceTree = "<group>"; };
+		F04DB4DC197C652C009E207C /* LFNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNode.m; sourceTree = "<group>"; };
+		F0810FD21977281700A5785C /* LFURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFURLProtocol.h; sourceTree = "<group>"; };
+		F0810FD31977281700A5785C /* LFURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFURLProtocol.m; sourceTree = "<group>"; };
+		F094C4B11976ADBA005E59DD /* LFProxy3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFProxy3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F094C4B41976ADBA005E59DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F094C4B61976ADBA005E59DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F094C4B81976ADBA005E59DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F094C4BC1976ADBA005E59DD /* LFProxy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LFProxy3-Info.plist"; sourceTree = "<group>"; };
+		F094C4BE1976ADBA005E59DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F094C4C01976ADBA005E59DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F094C4C21976ADBA005E59DD /* LFProxy3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFProxy3-Prefix.pch"; sourceTree = "<group>"; };
+		F094C4C31976ADBA005E59DD /* LFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppDelegate.h; sourceTree = "<group>"; };
+		F094C4C41976ADBA005E59DD /* LFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppDelegate.m; sourceTree = "<group>"; };
+		F094C4C71976ADBA005E59DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F094C4C91976ADBA005E59DD /* LFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFViewController.h; sourceTree = "<group>"; };
+		F094C4CA1976ADBA005E59DD /* LFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFViewController.m; sourceTree = "<group>"; };
+		F094C4CC1976ADBA005E59DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F094C4D21976ADBB005E59DD /* LFProxy3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFProxy3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F094C4D31976ADBB005E59DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F094C4DB1976ADBB005E59DD /* LFProxy3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LFProxy3Tests-Info.plist"; sourceTree = "<group>"; };
+		F094C4DD1976ADBB005E59DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F094C4DF1976ADBB005E59DD /* LFProxy3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFProxy3Tests.m; sourceTree = "<group>"; };
+		F094C4E91976AE01005E59DD /* LFLocalProxyServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLocalProxyServer.h; sourceTree = "<group>"; };
+		F094C4EA1976AE01005E59DD /* LFLocalProxyServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLocalProxyServer.m; sourceTree = "<group>"; };
+		F094C4EC1976B0C0005E59DD /* LFConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFConnection.h; sourceTree = "<group>"; };
+		F094C4ED1976B0C0005E59DD /* LFConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F094C4AE1976ADBA005E59DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4B71976ADBA005E59DD /* CoreGraphics.framework in Frameworks */,
+				F094C4B91976ADBA005E59DD /* UIKit.framework in Frameworks */,
+				F094C4B51976ADBA005E59DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F094C4CF1976ADBB005E59DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4D41976ADBB005E59DD /* XCTest.framework in Frameworks */,
+				F094C4D61976ADBB005E59DD /* UIKit.framework in Frameworks */,
+				F094C4D51976ADBB005E59DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F094C4A81976ADB9005E59DD = {
+			isa = PBXGroup;
+			children = (
+				F094C4BA1976ADBA005E59DD /* LFProxy3 */,
+				F094C4D91976ADBB005E59DD /* LFProxy3Tests */,
+				F094C4B31976ADBA005E59DD /* Frameworks */,
+				F094C4B21976ADBA005E59DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F094C4B21976ADBA005E59DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4B11976ADBA005E59DD /* LFProxy3.app */,
+				F094C4D21976ADBB005E59DD /* LFProxy3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F094C4B31976ADBA005E59DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4B41976ADBA005E59DD /* Foundation.framework */,
+				F094C4B61976ADBA005E59DD /* CoreGraphics.framework */,
+				F094C4B81976ADBA005E59DD /* UIKit.framework */,
+				F094C4D31976ADBB005E59DD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F094C4BA1976ADBA005E59DD /* LFProxy3 */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4E91976AE01005E59DD /* LFLocalProxyServer.h */,
+				F094C4EA1976AE01005E59DD /* LFLocalProxyServer.m */,
+				F0810FD21977281700A5785C /* LFURLProtocol.h */,
+				F0810FD31977281700A5785C /* LFURLProtocol.m */,
+				F04DB4D8197C6509009E207C /* LFRequestQueue.h */,
+				F04DB4D9197C6509009E207C /* LFRequestQueue.m */,
+				F04DB4DB197C652C009E207C /* LFNode.h */,
+				F04DB4DC197C652C009E207C /* LFNode.m */,
+				F094C4EC1976B0C0005E59DD /* LFConnection.h */,
+				F094C4ED1976B0C0005E59DD /* LFConnection.m */,
+				F04CE5DC197D543B008EEEB5 /* LFProtocolStore.h */,
+				F04CE5DD197D543B008EEEB5 /* LFProtocolStore.m */,
+				F094C4C31976ADBA005E59DD /* LFAppDelegate.h */,
+				F094C4C41976ADBA005E59DD /* LFAppDelegate.m */,
+				F094C4C61976ADBA005E59DD /* Main.storyboard */,
+				F094C4C91976ADBA005E59DD /* LFViewController.h */,
+				F094C4CA1976ADBA005E59DD /* LFViewController.m */,
+				F094C4CC1976ADBA005E59DD /* Images.xcassets */,
+				F094C4BB1976ADBA005E59DD /* Supporting Files */,
+			);
+			path = LFProxy3;
+			sourceTree = "<group>";
+		};
+		F094C4BB1976ADBA005E59DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4BC1976ADBA005E59DD /* LFProxy3-Info.plist */,
+				F094C4BD1976ADBA005E59DD /* InfoPlist.strings */,
+				F094C4C01976ADBA005E59DD /* main.m */,
+				F094C4C21976ADBA005E59DD /* LFProxy3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F094C4D91976ADBB005E59DD /* LFProxy3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4DF1976ADBB005E59DD /* LFProxy3Tests.m */,
+				F094C4DA1976ADBB005E59DD /* Supporting Files */,
+			);
+			path = LFProxy3Tests;
+			sourceTree = "<group>";
+		};
+		F094C4DA1976ADBB005E59DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F094C4DB1976ADBB005E59DD /* LFProxy3Tests-Info.plist */,
+				F094C4DC1976ADBB005E59DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F094C4B01976ADBA005E59DD /* LFProxy3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F094C4E31976ADBB005E59DD /* Build configuration list for PBXNativeTarget "LFProxy3" */;
+			buildPhases = (
+				F094C4AD1976ADBA005E59DD /* Sources */,
+				F094C4AE1976ADBA005E59DD /* Frameworks */,
+				F094C4AF1976ADBA005E59DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFProxy3;
+			productName = LFProxy3;
+			productReference = F094C4B11976ADBA005E59DD /* LFProxy3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F094C4D11976ADBB005E59DD /* LFProxy3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F094C4E61976ADBB005E59DD /* Build configuration list for PBXNativeTarget "LFProxy3Tests" */;
+			buildPhases = (
+				F094C4CE1976ADBB005E59DD /* Sources */,
+				F094C4CF1976ADBB005E59DD /* Frameworks */,
+				F094C4D01976ADBB005E59DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F094C4D81976ADBB005E59DD /* PBXTargetDependency */,
+			);
+			name = LFProxy3Tests;
+			productName = LFProxy3Tests;
+			productReference = F094C4D21976ADBB005E59DD /* LFProxy3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F094C4A91976ADB9005E59DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andre Green";
+				TargetAttributes = {
+					F094C4D11976ADBB005E59DD = {
+						TestTargetID = F094C4B01976ADBA005E59DD;
+					};
+				};
+			};
+			buildConfigurationList = F094C4AC1976ADB9005E59DD /* Build configuration list for PBXProject "LFProxy3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F094C4A81976ADB9005E59DD;
+			productRefGroup = F094C4B21976ADBA005E59DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F094C4B01976ADBA005E59DD /* LFProxy3 */,
+				F094C4D11976ADBB005E59DD /* LFProxy3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F094C4AF1976ADBA005E59DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4CD1976ADBA005E59DD /* Images.xcassets in Resources */,
+				F094C4BF1976ADBA005E59DD /* InfoPlist.strings in Resources */,
+				F094C4C81976ADBA005E59DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F094C4D01976ADBB005E59DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4DE1976ADBB005E59DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F094C4AD1976ADBA005E59DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4C51976ADBA005E59DD /* LFAppDelegate.m in Sources */,
+				F094C4EB1976AE01005E59DD /* LFLocalProxyServer.m in Sources */,
+				F04DB4DA197C6509009E207C /* LFRequestQueue.m in Sources */,
+				F04DB4DD197C652C009E207C /* LFNode.m in Sources */,
+				F094C4EE1976B0C0005E59DD /* LFConnection.m in Sources */,
+				F0810FD41977281700A5785C /* LFURLProtocol.m in Sources */,
+				F094C4C11976ADBA005E59DD /* main.m in Sources */,
+				F094C4CB1976ADBA005E59DD /* LFViewController.m in Sources */,
+				F04CE5DE197D543B008EEEB5 /* LFProtocolStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F094C4CE1976ADBB005E59DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F094C4E01976ADBB005E59DD /* LFProxy3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F094C4D81976ADBB005E59DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F094C4B01976ADBA005E59DD /* LFProxy3 */;
+			targetProxy = F094C4D71976ADBB005E59DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F094C4BD1976ADBA005E59DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F094C4BE1976ADBA005E59DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F094C4C61976ADBA005E59DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F094C4C71976ADBA005E59DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F094C4DC1976ADBB005E59DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F094C4DD1976ADBB005E59DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F094C4E11976ADBB005E59DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F094C4E21976ADBB005E59DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F094C4E41976ADBB005E59DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFProxy3/LFProxy3-Prefix.pch";
+				INFOPLIST_FILE = "LFProxy3/LFProxy3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F094C4E51976ADBB005E59DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFProxy3/LFProxy3-Prefix.pch";
+				INFOPLIST_FILE = "LFProxy3/LFProxy3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F094C4E71976ADBB005E59DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LFProxy3.app/LFProxy3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFProxy3/LFProxy3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LFProxy3Tests/LFProxy3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F094C4E81976ADBB005E59DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LFProxy3.app/LFProxy3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFProxy3/LFProxy3-Prefix.pch";
+				INFOPLIST_FILE = "LFProxy3Tests/LFProxy3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F094C4AC1976ADB9005E59DD /* Build configuration list for PBXProject "LFProxy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F094C4E11976ADBB005E59DD /* Debug */,
+				F094C4E21976ADBB005E59DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F094C4E31976ADBB005E59DD /* Build configuration list for PBXNativeTarget "LFProxy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F094C4E41976ADBB005E59DD /* Debug */,
+				F094C4E51976ADBB005E59DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F094C4E61976ADBB005E59DD /* Build configuration list for PBXNativeTarget "LFProxy3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F094C4E71976ADBB005E59DD /* Debug */,
+				F094C4E81976ADBB005E59DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F094C4A91976ADB9005E59DD /* Project object */;
+}
